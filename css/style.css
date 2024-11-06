@@ -1,0 +1,333 @@
+/*------------------- 
+    RESET
+---------------------*/
+
+*{
+
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+/* ---------------
+    GENERAL
+------------------*/
+
+.container{
+
+max-width: 1200px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+/*---------------
+     HEADER
+------------------ */
+
+.header-top{
+
+background-color: #add8e6;
+padding: 15px 0;
+
+}
+
+.header-bottom{
+
+background-color: #00008b;
+padding:60px 0;
+min-height: 300px;
+
+
+}
+
+.header-top > .container {
+
+    display: flex;
+    background-color: #daa520;    
+
+}
+
+.header-top .scarica,
+.header-top .discord,
+.header-top .nitro,
+.header-top .sicurezza,
+.header-top .assistenza,{
+ 
+   border: 1px dashed black;
+
+}
+
+.header-top .scarica,
+.header-top .discord,
+.header-top .nitro,
+.header-top .sicurezza,
+.header-top .assistenza{
+
+    width: 20%;
+}
+
+.header-top .login{
+
+    text-align: right;
+}
+
+.header-top .link{
+
+    width: 60%;
+    text-align: center;
+}
+
+.header-top .logo {
+
+    text-align: left;
+}
+
+.header-bottom .container{
+
+   background-color: #ee82ee;
+   min-height: 300px;
+   max-width: 50%;
+   border: 1px dashed black;
+
+
+}
+
+
+/*------------
+    SECTIONS
+ --------------*/
+
+
+section{
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+#first-section {
+
+display: flex;
+
+}
+
+
+#first-section .column-right {
+
+    width: 30%;
+}
+
+
+.debug #first-section .column-right {
+
+    background-color:  #ffc0cb;
+    min-height: 300px;
+    border: 1px dashed black;
+    align-items: flex-end;
+
+}
+
+#first-section .column-left {
+
+    width: 40%;
+}
+
+
+.debug #first-section .column-left {
+
+    background-color: #1e90ff;
+    min-height: 300px;
+    border: 1px dashed black;
+    align-items: flex-end;
+
+}
+
+/*----------------
+   SECOND SECTION
+   --------------- */
+
+#second-section {
+
+    display: flex;
+    background-color: #d3d3d3;
+    padding:60px 0;
+
+    }
+    
+
+#second-section .column-right {
+
+    width: 40%;
+}
+
+
+.debug #second-section .column-right {
+
+    background-color: #1e90ff;
+    min-height: 300px;
+    border: 1px dashed black;
+    align-items: flex-end;
+
+}
+
+#second-section .column-left {
+
+    width: 30%;
+}
+
+
+.debug #second-section .column-left {
+
+    background-color: #ffc0cb;
+    min-height: 300px;
+    border: 1px dashed black;
+    align-items: flex-end;
+    
+}
+
+/* --------------
+  THIRD SECTION
+  --------------- */
+
+
+#third-section {
+
+display: flex;
+
+}
+
+
+#third-section .column-right {
+
+    width: 30%;
+}
+
+
+.debug #third-section .column-right {
+
+    background-color:  #ffc0cb;
+    min-height: 300px;
+    border: 1px dashed black;
+    align-items: flex-end;
+
+}
+
+#third-section .column-left {
+
+    width: 40%;
+}
+
+
+.debug #third-section .column-left {
+
+    background-color: #1e90ff;
+    min-height: 300px;
+    border: 1px dashed black;
+    align-items: flex-end;
+
+}
+
+/*--------------
+ FOURTH SECTION
+ --------------- */
+
+ #fourth-section {
+
+    display: flex;
+    background-color: #d3d3d3;
+    padding:60px 0;
+    justify-content: center;
+    }
+    
+    
+    #fourth-section .column-right {
+    
+        width: 50%;
+    }
+    
+    
+    .debug #fourth-section .column-right {
+    
+        background-color:  #228b22;
+        min-height: 300px;
+        border: 1px dashed black;
+        align-items: flex-end;
+    
+    }
+
+    /* ---------------
+       FOOTER
+       -------------- */
+
+
+
+       .footer-top{
+
+        background-color: #23272a;
+        padding: 60px 0;
+        min-height: 400px;
+    
+       }
+
+        
+        .footer-bottom{
+        
+        background-color: #23272a;
+        padding:20px 0;
+        
+        
+        
+        }
+        
+        .footer-top > .container {
+        
+            display: flex;
+            background-color: #20b2aa;    
+        }
+
+        
+        .footer-bottom.logo,
+        .footer-bottom.bottone{
+           background-color: #ffb6af;
+           border: 1px dashed white;
+        
+        }
+         
+
+        .footer-bottom
+        .logo,
+        .bottone{
+         
+            background-color: #ffb6af;
+            border: 1px dashed white;
+            justify-content: space-between;
+
+        }
+
+        .footer-bottom .logo, .footer-bottom .bottone{
+
+            width: 20%;
+            justify-content: space-between;
+        }
+        
+        .footer-bottom .logo{
+        
+            text-align: right;
+            justify-content: right;
+        }
+        
+        .footer-bottom .bottone {
+
+            text-align: left;
+            justify-content: left;
+        }
+
+        .footer-top .container .column{
+
+            background-color: #20b2aa;
+            min-height: 200px;
+            max-width: 50%;
+            border: 1px dashed black;
+        }
