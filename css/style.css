@@ -73,6 +73,16 @@ align-items: flex-end;
     color: #ffff;
 }
 
+.btn-beta{
+ background-color: #8ea1e1;
+ border-radius: 20px;
+ padding: 10px 18px;
+ border:none;
+ align-items: flex-end;
+ gap: 40px;
+
+}
+
 
 
 
@@ -449,7 +459,7 @@ align-items: flex-start;
 
         background-color: #23272a;
         padding: 60px 0;
-        min-height: 400px;
+        min-height: 200px;
     
        }
 
@@ -460,56 +470,57 @@ align-items: flex-start;
         padding:20px 0;
         
         
-        
         }
-        
-        .footer-top > .container {
-        
+
+        .footer-top .parlare{
+
+            color: #6d83d1;
+
+
+        }
+
+        .footer-top .ita{
+
             display: flex;
-            background-color: #20b2aa;    
-        }
+            padding: 5px;
+            min-width: 5%;
 
-        
-        .footer-bottom.logo,
-        .footer-bottom.bottone{
-           background-color: #ffb6af;
-           border: 1px dashed white;
-        
-        }
-         
-
-        .footer-bottom
-        .logo,
-        .bottone{
-         
-            background-color: #ffb6af;
-            border: 1px dashed white;
-            justify-content: space-between;
-
-        }
-
-        .footer-bottom .logo, .footer-bottom .bottone{
-
-            width: 20%;
-            justify-content: space-between;
         }
         
-        .footer-bottom .logo{
+       .footer-bottom .logo2{
+
+        align-items: flex-start;
+
+       }
+
+       .logo2{
+
+        padding: 10px;
+       }
+
+       .footer-bottom .btn-beta{
+
+        display: flex;
+        padding: 10px;
+        min-height: 10px;
+        justify-content: space-between;
         
-            text-align: right;
-            justify-content: right;
-        }
-        
-        .footer-bottom .bottone {
-
-            text-align: left;
-            justify-content: left;
         }
 
-        .footer-top .container .column{
+        .footer-bottom .logo2{
 
-            background-color: #20b2aa;
-            min-height: 200px;
-            max-width: 50%;
-            border: 1px dashed black;
+         padding: 20px 0;
+        text-align: left;
         }
+
+
+.footer-bottom .logo2{
+
+    width: 20%;
+}
+
+.footer-bottom .logo2{
+
+    text-align: left ;
+}
+
